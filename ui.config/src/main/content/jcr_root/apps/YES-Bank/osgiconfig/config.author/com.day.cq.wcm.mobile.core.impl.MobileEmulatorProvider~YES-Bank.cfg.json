@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "YES-Bank/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}

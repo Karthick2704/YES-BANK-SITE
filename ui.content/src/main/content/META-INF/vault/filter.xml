@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/YES-Bank" mode="merge"/>
+    <filter root="/content/YES-Bank" mode="merge"/>
+    <filter root="/content/dam/YES-Bank/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/YES-Bank" mode="merge"/>
+</workspaceFilter>

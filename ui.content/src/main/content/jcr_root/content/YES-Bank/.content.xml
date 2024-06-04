@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/YES-Bank/settings/wcm/templates/(?!xf-).*]"
+        cq:conf="/conf/YES-Bank"
+        cq:redirectTarget="/content/YES-Bank/us/en"
+        cq:template="/conf/YES-Bank/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="YES Bank Project"
+        sling:configRef="/conf/YES-Bank"
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="YES-Bank/components/page">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <us/>
+</jcr:root>
